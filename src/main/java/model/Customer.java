@@ -13,6 +13,8 @@ public class Customer {
         this.address = address;
     }
 
+    public Customer() {
+    }
 
     public int getId() {
         return id;

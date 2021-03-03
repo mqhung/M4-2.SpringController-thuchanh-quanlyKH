@@ -5,6 +5,7 @@ import java.util.List;
 public interface IGeneralService<T>{
     List<T> showAll();
     T findById (int id);
-    boolean update(T t);
-    boolean save(T t, int id);
+    void update(int id, T t);
+    void save(T t);
+    void remove (int id);
 }
